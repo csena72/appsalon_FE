@@ -15,7 +15,7 @@
     >
         <p class="text-2xl font-light">{{ service.name }}</p>
 
-        <p class="text-4xl font-black text-blue-600">$ {{ formatCurrency(service.price) }}</p>
+        <p class="text-4xl font-black text-blue-600">{{ formatCurrency(service.price) }}</p>
     </div>
 </template>
 
